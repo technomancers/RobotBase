@@ -6,7 +6,7 @@ apply plugin: 'eclipse'
 description 'Build and Deploy to the RoboRIO with WPI\'s FRC libraries'
 
 dependencies {
-	compile 'org.json:json:20160810'
+	//Include external dependencies here (Uses maven central)
 }
 
 gradlerio{
